@@ -68,6 +68,7 @@ const Women = (props) => {
     tl.current.to(props.men, {
       height: "0%",
       fontSize: "0%",
+      display: "none",
       duration: 0.5,
       ease: Power3.easeOut,
     });
