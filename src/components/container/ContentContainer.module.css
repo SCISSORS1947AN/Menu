@@ -1,0 +1,22 @@
+.ContentContainer {
+  position: fixed;
+  top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: var(--contentContainer-Height);
+  color: white;
+}
+
+.lp {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: var(--contentContainer-Height);
+  z-index: 2;
+  transform: translateX(100%);
+}
