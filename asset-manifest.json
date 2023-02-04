@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Menu/static/css/main.5fde6e34.css",
+    "main.js": "/Menu/static/js/main.243a5bbe.js",
+    "static/media/20.png": "/Menu/static/media/20.f76e6a7d2487aa0b90a4.png",
+    "static/media/18.png": "/Menu/static/media/18.eca5dd50e3ba825646a0.png",
+    "static/media/17.png": "/Menu/static/media/17.f25c7cf8ea4cd2833f52.png",
+    "static/media/14.png": "/Menu/static/media/14.22c532fd711ed7a6e7da.png",
+    "static/media/16.png": "/Menu/static/media/16.4d289beb44ce282a1fc1.png",
+    "static/media/15.png": "/Menu/static/media/15.bc7fd6fccfaac32f8ccd.png",
+    "static/media/19.png": "/Menu/static/media/19.a2d9efe2c65dfe4d4025.png",
+    "static/media/13.png": "/Menu/static/media/13.0bddee922ddc0ca31b3d.png",
+    "static/media/12.png": "/Menu/static/media/12.767e8ddbbe566e1a5ae5.png",
+    "static/media/01.png": "/Menu/static/media/01.440760473f64143075f1.png",
+    "static/media/06.png": "/Menu/static/media/06.c3e303f64630327b4c02.png",
+    "static/media/men.png": "/Menu/static/media/men.00aa1befff7ffcec11c7.png",
+    "static/media/women.png": "/Menu/static/media/women.8f171e616032fc17313a.png",
+    "static/media/04.png": "/Menu/static/media/04.f96ebf94ecc16eac749d.png",
+    "static/media/10.png": "/Menu/static/media/10.c3e70f65405ca7cab732.png",
+    "static/media/11.png": "/Menu/static/media/11.9baa57c3b9a98906d77c.png",
+    "static/media/02.png": "/Menu/static/media/02.42123fee40042c8d86c1.png",
+    "static/media/03.png": "/Menu/static/media/03.d29cfb05c305d54a6475.png",
+    "static/media/instagram.png": "/Menu/static/media/instagram.80e598d8df0c0a94d580.png",
+    "static/media/05.png": "/Menu/static/media/05.3d05bec09ddd7cfd2b31.png",
+    "static/media/07.png": "/Menu/static/media/07.0a96ad46833db2048d55.png",
+    "static/media/09.png": "/Menu/static/media/09.619001ded77c00cea6ab.png",
+    "static/media/08.png": "/Menu/static/media/08.a752b9cfa41e0f766526.png",
+    "static/media/logo-vector.png": "/Menu/static/media/logo-vector.e12f5a648a43f99c06a0.png",
+    "static/media/whatsapp.png": "/Menu/static/media/whatsapp.faed58bdb4c0d5a76c2c.png",
+    "static/media/google.png": "/Menu/static/media/google.0b50af2fbb8c1e8ca23e.png",
+    "index.html": "/Menu/index.html",
+    "main.5fde6e34.css.map": "/Menu/static/css/main.5fde6e34.css.map",
+    "main.243a5bbe.js.map": "/Menu/static/js/main.243a5bbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fde6e34.css",
+    "static/js/main.243a5bbe.js"
+  ]
+}
