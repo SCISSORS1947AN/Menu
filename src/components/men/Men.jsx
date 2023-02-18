@@ -8,6 +8,9 @@ import { animeActions } from "../../store/animeSlice";
 const Men = () => {
   const dispatch = useDispatch();
   const ButtonState = useSelector((state) => state.animation.menButtonState);
+  const halfHeight = useSelector(
+    (state) => state.animation.halfContentContainerHeight
+  );
   const tl = useRef();
   const reverseTimeLineMen = useSelector(
     (state) => state.animation.reverseTimeLineMen
@@ -19,7 +22,7 @@ const Men = () => {
     });
 
     tl.current.to(document.getElementById("Emperor"), {
-      height: "600px",
+      height: "var(--contentContainer-Height)",
       duration: 0.5,
       ease: Power3.easeOut,
     });
@@ -32,7 +35,7 @@ const Men = () => {
     });
 
     tl.current.to(document.getElementById("ContentContainer"), {
-      x: "-100vw",
+      x: `-50%`,
       duration: 0.7,
       ease: Power3.easeOut,
     });
@@ -60,6 +63,7 @@ const Men = () => {
       className={styles.Men}
       style={{
         backgroundImage: `url(${background})`,
+        height: `${halfHeight}px`,
       }}
       onClick={onClick__Handler}
     >

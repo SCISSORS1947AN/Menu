@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Italianno&family=Orbitron&display=swap");
 
 :root {
   --contentContainer-Height: calc(100vh - 340px);
@@ -25,6 +27,7 @@ body {
 
 .App {
   width: 100vw;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

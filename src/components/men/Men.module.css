@@ -1,12 +1,12 @@
 .Men {
   width: 100vw;
-  height: 300px;
+  max-width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .Men div {

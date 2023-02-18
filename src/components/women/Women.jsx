@@ -8,6 +8,9 @@ import { animeActions } from "../../store/animeSlice";
 const Women = () => {
   const dispatch = useDispatch();
   const ButtonState = useSelector((state) => state.animation.womenButtonState);
+  const halfHeight = useSelector(
+    (state) => state.animation.halfContentContainerHeight
+  );
   const tl = useRef();
   const reverseTimeLineWomen = useSelector(
     (state) => state.animation.reverseTimeLineWomen
@@ -19,7 +22,7 @@ const Women = () => {
     });
 
     tl.current.to(document.getElementById("Empress"), {
-      height: "600px",
+      height: "var(--contentContainer-Height)",
       duration: 0.5,
       ease: Power3.easeOut,
     });
@@ -32,7 +35,7 @@ const Women = () => {
     });
 
     tl.current.to(document.getElementById("ContentContainer"), {
-      x: "-100vw",
+      x: "-50%",
       duration: 0.7,
       ease: Power3.easeOut,
     });
@@ -58,7 +61,10 @@ const Women = () => {
     <div
       id="Empress"
       className={styles.Women}
-      style={{ backgroundImage: `url(${background})` }}
+      style={{
+        backgroundImage: `url(${background})`,
+        height: `${halfHeight}px`,
+      }}
       onClick={onClick__Handler}
     >
       <div>

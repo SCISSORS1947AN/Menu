@@ -5,7 +5,7 @@ const initialState = {
   womenButtonState: false,
   reverseTimeLineMen: false,
   reverseTimeLineWomen: false,
-  contentContainerHeight: 0,
+  halfContentContainerHeight: 0,
 };
 
 const animeSlice = createSlice({
@@ -24,8 +24,8 @@ const animeSlice = createSlice({
     reverseTimeLineWomen(state) {
       state.reverseTimeLineWomen = !state.reverseTimeLineWomen;
     },
-    contentContainerHeight(state, action) {
-      state.contentContainerHeight = action.payload;
+    halfContentContainerHeight(state, action) {
+      state.halfContentContainerHeight = action.payload;
     },
   },
 });

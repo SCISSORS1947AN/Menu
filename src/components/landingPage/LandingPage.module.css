@@ -1,6 +1,7 @@
 .LandingPage {
   width: 100vw;
-  height: 600px;
+  max-width: 600px;
+  height: var(--contentContainer-Height);
   display: flex;
   justify-content: center;
   align-items: center;
