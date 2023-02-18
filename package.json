@@ -1,15 +1,24 @@
 {
+<<<<<<< HEAD
   "name": "scissors-menu",
   "version": "0.1.0",
   "homepage": "https://SCISSORS1947AN.github.io/Menu",
   "private": true,
   "dependencies": {
+=======
+  "name": "scissors-menu-v2.0.0",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.2",
+>>>>>>> update
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "gsap": "^3.11.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-scripts": "5.0.1",
     "swiper": "^9.0.2",
     "web-vitals": "^2.1.4"
@@ -17,6 +26,14 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+    "react-redux": "^8.0.5",
+    "react-scripts": "5.0.1",
+    "swiper": "^9.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+>>>>>>> update
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,8 +56,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+=======
+>>>>>>> update
   }
 }
